@@ -1,0 +1,48 @@
+### main app 
+GET http://localhost:3000/ 
+
+### main app 
+GET http://localhost:3000
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MjI2NTYxNTcsImV4cCI6MTYyMjY1NjE4NywiYXVkIjoiNjBiN2JiOGZlODkwNjMxZmRjYjMwZDU2IiwiaXNzIjoiZ29lbHMuaGVyb2t1YXBwLmNvbSJ9.f5Kdhx6drhDhv44HzyS75F2_JlXcCOuWPO_IEGX7qKo
+
+### auth main
+GET   http://localhost:3000/auth/
+
+
+
+### auth register  
+POST http://localhost:3000/auth/register  
+content-type: application/json
+
+{ 
+    "email": "nayneshrathod@gmail.com",
+    "password": "Rathod"
+}
+
+
+### auth loagin
+POST  http://localhost:3000/auth/login
+content-type: application/json
+
+{ 
+    "email": "nayneshrathod@gmail.com",
+    "password": "Rathod"
+}
+
+
+### auth refredhtokn
+POST  http://localhost:3000/auth/refresh-token/
+Content-Type: application/json
+
+{
+     "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MjI2NTc1OTQsImV4cCI6MTY1NDIxNTE5NCwiYXVkIjoiNjBiN2JiOGZlODkwNjMxZmRjYjMwZDU2IiwiaXNzIjoiZ29lbHMuaGVyb2t1YXBwLmNvbSJ9.1AYM2Soa2yCpNakwsmPDpXwDJnuACj-y8wAGIA8cfqA"
+     }
+
+
+### auth logout
+DELETE   http://localhost:3000/auth/logout
+Content-Type: application/json
+
+{
+     "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MjI2NTc2MTcsImV4cCI6MTY1NDIxNTIxNywiYXVkIjoiNjBiN2JiOGZlODkwNjMxZmRjYjMwZDU2IiwiaXNzIjoiZ29lbHMuaGVyb2t1YXBwLmNvbSJ9.uArMW4ODIKMzPdpc-1bLr-1zy0sP8dVGBvCDi6PPBzw"
+}
