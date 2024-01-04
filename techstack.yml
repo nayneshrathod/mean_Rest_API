@@ -1,7 +1,8 @@
 repo_name: nayneshrathod/mean_Rest_API
 report_id: 1a255205102634936ffee4ee8e4c899f
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T17:36:29+00:00'
+timestamp: '2024-01-04T15:10:02+00:00'
 requested_by: nayneshrathod
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/nayneshrathod/mean_Rest_API
   detection_source: Repo Metadata
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
@@ -28,7 +30,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/mean_Rest_API/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2021-06-02 18:31:42.000000000 Z
@@ -40,6 +42,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/nayneshrathod/mean_Rest_API/blob/main/helpers/init_mongodb.js
   detection_source: helpers/init_mongodb.js
   last_updated_by: Naynesh Rathod
   last_updated_on: 2021-06-02 18:31:42.000000000 Z
@@ -53,7 +56,7 @@ tools:
   category: Data Stores
   sub_category: Object Document Mapper (ODM)
   image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/mean_Rest_API/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2021-06-02 18:31:42.000000000 Z
@@ -67,7 +70,7 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/mean_Rest_API/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2021-06-02 18:31:42.000000000 Z
@@ -80,6 +83,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/nayneshrathod/mean_Rest_API/blob/main/package.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2021-06-02 18:31:42.000000000 Z
@@ -91,6 +95,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/nayneshrathod/mean_Rest_API
   detection_source: Repo Metadata
 - name: nodemon
   description: A simple monitor script for use during development of a node.js app
@@ -102,7 +107,7 @@ tools:
   category: Monitoring
   sub_category: node.js Application Monitoring
   image_url: https://img.stackshare.io/service/5577/preview.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/mean_Rest_API/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2021-06-02 18:31:42.000000000 Z
@@ -114,6 +119,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/nayneshrathod/mean_Rest_API/blob/main/package.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2021-06-02 18:31:42.000000000 Z
@@ -127,7 +133,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17065/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/mean_Rest_API/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2021-06-02 18:31:42.000000000 Z
@@ -141,7 +147,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16526/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/mean_Rest_API/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2021-06-02 18:31:42.000000000 Z
@@ -155,7 +161,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/mean_Rest_API/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2021-06-02 18:31:42.000000000 Z
@@ -176,7 +182,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16925/default_7b9968788548874538c601457e8dcd9c74bd2051.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/mean_Rest_API/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2021-06-02 18:31:42.000000000 Z
@@ -190,7 +196,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/mean_Rest_API/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2021-06-02 18:31:42.000000000 Z
@@ -231,7 +237,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/mean_Rest_API/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2021-06-02 18:31:42.000000000 Z
